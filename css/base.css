@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --bg: #040d1f;
+    --white: #fff;
+    --black: #000;
+    --orange:#ed8e00;
+    --lightir:#f18128;
+    --CR: 'CR', sans-serif;
+    --CB: 'CB', sans-serif;
+    --RR: 'RR', sans-serif;
+    --RM: 'RM', sans-serif;
+    --MR: 'MR', sans-serif;
+    --MB: 'MD', sans-serif;
+}
+
+body {
+    background: var(--bg);
+    color: var(--white);
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}

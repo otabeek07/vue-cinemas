@@ -48,7 +48,21 @@ body {
     border-radius: 5px;
 
 }
+
 .btn:hover {
     background: var(--bg);
     color: var(--white);
+}
+
+.title {
+    font-family: var(--CR);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+    color: var(--lightir);
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--lightir);
+    margin-bottom: 40px;
+    width: max-content;
 }

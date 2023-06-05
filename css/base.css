@@ -10,8 +10,8 @@
     --bg: #040d1f;
     --white: #fff;
     --black: #000;
-    --orange:#ed8e00;
-    --lightir:#f18128;
+    --orange: #ed8e00;
+    --lightir: #f18128;
     --CR: 'CR', sans-serif;
     --CB: 'CB', sans-serif;
     --RR: 'RR', sans-serif;
@@ -24,10 +24,31 @@ body {
     background: var(--bg);
     color: var(--white);
 }
-.container{
+
+.container {
     max-width: 1140px;
     width: 100%;
     height: 100%;
     padding: 0 15px;
     margin: 0 auto;
+}
+
+.btn {
+    width: 166px;
+    height: 46px;
+    outline: none;
+    border: none;
+    background: var(--lightir);
+    color: var(--black);
+    font-family: var(--RM);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 12px;
+    transition: 0.3s;
+    border-radius: 5px;
+
+}
+.btn:hover {
+    background: var(--bg);
+    color: var(--white);
 }

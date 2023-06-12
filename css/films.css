@@ -90,7 +90,7 @@ overflow: hidden;
         max-width: 320px;
     }
 }
-@media screen and (768px) {
+@media screen and (max-width:768px) {
     .films__card{
         max-width: 255px;
     }
